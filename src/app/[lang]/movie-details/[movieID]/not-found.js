@@ -1,7 +1,12 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const InvalidMovieDetail = () => {
+  const pathname = usePathname();
+  const movieId = pathname.replace(/\/(en|bn)\/movie-details\//, "");
+
   return (
     <>
       <div className="flex items-center min-height-screen">
@@ -11,7 +16,7 @@ const InvalidMovieDetail = () => {
               404
             </div>
             <p className="text-2xl md:text-3xl font-light leading-normal mb-8">
-              Sorry we couldn&apos;t find the the movie you&apos;re looking for
+              This movie with {movieId} id was not found!
             </p>
             <Link
               href="/"
