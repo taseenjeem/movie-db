@@ -1,0 +1,24 @@
+{
+  "sidebar": {
+    "trending": "চলমান",
+    "new_releases": "নতুন রিলিজ",
+    "coming_soon": "শীঘ্রই আসছে",
+    "favorites": "প্রিয় সিনেমা",
+    "watch_later": "পরে দেখুন"
+  },
+  "movie_card": {
+    "details": "বিস্তারিত দেখুন"
+  },
+  "movie_details": {
+    "releases_date": "মুক্তির তারিখ",
+    "average_vote": "গড় ভোট",
+    "vote_count": "ভোট গণনা",
+    "popularity": "জনপ্রিয়তা",
+    "stream": "HD তে স্ট্রিম করুন",
+    "download": "HD তে ডাউনলোড করুন",
+    "fav": "প্রিয় সিনেমা",
+    "remove_fav": "অপ্রিয় সিনেমা",
+    "watch_later": "পরে দেখুন",
+    "watch_later_remove": "পরে দেখুন থেকে সড়ান"
+  }
+}
